@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0; 
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  
+}
+
+
+header {
+  background-image: url(../img/header-overlay.png), url(../img/header-bg.jpg);
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 970px;
+  width: 100%;
+  background-size: cover;
+    
+  }
+  
+  .main-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .logo {
+    margin: 0 auto;
+    margin-left: 60px;
+     
+    width: 90px;
+    height: 90px;
+  }
+
+  .logo-text {
+    font-family: 'Roboto';
+    margin: 0 auto;
+    position: absolute;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCFCFC;
+    padding-top: 120px;
+    margin-left: 10px;
+  }
+
+  .nav {
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+  
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-left: 10px;
+  }
+  
+  .nav > li {
+    margin: 0 auto;
+    margin-left: 50px;
+  
+  }
+  
+  .nav > li > a {
+    color: #FCFCFC;
+    text-decoration: none;
+    background-image: linear-gradient(yellow, aqua);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+  .nav > li > a:hover {
+    background-size: 100% 2px;
+}
+
+
+  .social-box {
+    margin-right: 10px;
+  }
+
+  .social {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+  
+  }
+
+  .social li {
+    margin-left: 20px;
+  }
+
+  .social img {
+    width: 41px;
+    height: 41px;
+  }
+
+  .social img:hover {
+    width: 38px;
+    height: 38px;
+  }
+
+
+  .service-box {
+    max-width: 1275px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .service {
+    max-width: 650px;
+    Height: 381px;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-top: 100px;
+  }
+
+  .service-image {
+    margin: 0 auto;
+    margin-top: 50px; 
+  }
+
+  .service-button {
+    margin: 0 auto;
+    margin-left: 45px;
+    margin-top: 40px;
+  }
+
+  .text-1 {
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FCFCFC;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+  }
+
+  .text-1 h1 {
+    padding-top: 60px;
+  }
+
+  .text-1 img {
+    height: 64px;
+    width: 114px;
+    padding-top: 20px;
+  }
+
+  .vip {
+    display: flex;
+  }
+
+  .text-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FCFCFC;
+    margin-top: 65px;
+  }
+
+  .application {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 34px;
+    background: #0991d0;
+    width: 320px;
+    height: 80px;
+    border-radius: 40px;
+    padding: 16px 24px;
+    color: white;
+    border: none;
+    /* margin-top: 140px;
+    margin-left: 25px; */
+  }
+
+  .application:hover {
+    cursor: pointer;
+  }
+  .application a {
+    text-decoration: none;
+    color: #FCFCFC;
+  }
+
+  .partner-text {
+    margin-top: 90px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 15px;
+  }
+
+  /* advantages section  */
+  
+    .advantages {
+      background-image: url(../img/advantages-pattern.png);
+      background-attachment: relative;
+      background-position: center center;
+      background-size: cover;
+      max-width: 1300px;
+      margin: 0 auto;
+      min-height: 970px;
+      width: 100%;
+    }
+
+    .adv-title {
+      padding-top: 30px;
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .adv-title p {
+      font-family: 'Montserrat';
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 2px;
+      color:#0941D0;  
+    }
+
+    .adv-title h1 {
+      font-family: 'Montserrat';
+      font-weight: 900;
+      font-size: 34px;
+      padding-top: 15px; 
+      color: rgb(61, 60, 60);
+    }
+
+    /* advantages content */
+
+    .adv-content {
+      background: url(../img/line.png) no-repeat;
+      /* background-attachment: relative;
+      background-position: center center; */
+      background-size: cover; 
+      margin: 0 auto;
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .novice,
+    .review,
+    .traderecs,
+    .nonovice {
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .text-adv {
+      font-family: 'Montserrat';
+      max-width: 360px;
+    }
+
+    .text-adv h2 {
+      font-size: 31px;
+      color: rgb(68, 66, 66);
+    }
+
+    .text-adv p {
+      padding-top: 10px;
+      font-family: 'Montserrat';
+      font-size: 18px;
+      word-spacing: 1.5px;
+      
+    }
+
+    /* content-spacing and animation*/
+
+    .el-anim {
+      opacity: 0;
+    }
+
+    .novice {
+      margin-left: 40px;
+      transform: translateX(-20%);
+    }
+
+    .novice.element-show {
+      opacity: 1;
+      transition: all 1s;
+      transform: translateX(0%);
+    }
+
+    .review {
+     margin: 0 auto;
+     margin-right: 40px;
+     text-align: right;  
+     transform: translateX(20%);   
+    }
+
+    .review.element-show {
+      opacity: 1;
+      transition: all 1s;
+      transform: translateX(0%);
+    }
+
+    .traderecs {
+      margin-left: 40px;
+      transform: translateX(-20%);
+    }
+
+    .traderecs.element-show {
+      opacity: 1;
+      transition: all 1s;
+      transform: translateX(0%);
+    }
+
+    .nonovice {
+      margin: 0 auto;
+     margin-right: 40px;
+     text-align: right;
+     transform: translateX(20%);
+    }
+
+    .nonovice.element-show {
+      opacity: 1;
+      transition: all 1s;
+      transform: translateY(0%);
+    }
+/* text-spacing */
+
+    .novice .text-adv {
+      padding-top: 25px;
+      padding-left: 20px;
+    }
+
+    .traderecs .text-adv {
+      padding-top: 15px;
+      padding-left: 20px;
+    }
+
+    .review .text-adv {
+      padding-top: 50px;
+      padding-right: 20px;
+    }
+
+    .nonovice .text-adv {
+      padding-top: 50px;
+      padding-right: 20px;
+    }

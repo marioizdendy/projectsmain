@@ -1,0 +1,167 @@
+
+
+@media screen and (max-width: 1440px) {
+
+    header {
+        min-height: 770px;
+    }
+    .main-container {
+        max-width: 1100px;
+    }
+    
+    .logo {
+        width: 70px;
+        height: 70px;
+        
+    }
+    .logo-text {
+        font-size: 15px;
+        margin-left: 35px;
+        padding-top: 100px;
+    }   
+    .nav {
+        font-size: 15px;
+        padding-top: 0;
+    }
+    .social img {
+        width: 31px;
+        height: 31px;
+    }
+    .service {
+        height: 310px;
+    }
+    .service-image {
+        margin-top: 100px;
+    }
+    .service-box {
+        max-width: 1050px;
+        margin-top: 0;
+    }
+    .service-image img {
+        width: 334px;
+        height: 310px;
+    }
+    .text-1 {
+        font-size: 20px;
+    }
+    .text-2 {
+        font-size: 28px;
+        margin-top: 0;
+    }
+    .partner-text {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .service {
+    max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .nav {
+      display: none;
+    }
+    .social {
+      display: none;
+    }
+    .service-box {
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .service {
+        max-width: 850px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .service-image {
+        margin-top: 90px;
+    }
+
+    .main-container {
+        max-width: 700px;
+  }
+
+  .service-button {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .vip {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+  @media screen and (max-width: 768px) {
+    .service-image img {
+        width: 334px;
+        height: 310px; 
+    }
+
+    .text-1 {
+        font-size: 28px;
+    }
+    .text-2 {
+        font-size: 32px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .text-1 {
+        font-size: 25px;
+        line-height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .text-2 {
+        font-size: 27px;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+
+    .service {
+        margin-top: 20px;
+        height: 0%;
+    }
+
+    .service-image {
+        margin-top: 40px;
+    }
+
+    .service-image img {
+        width: 234px;
+        height: 217px; 
+    }
+
+    .logo-text {
+        font-size: 15px;
+        padding-top: 90px;  
+    }
+
+    .logo { 
+      width: 50px;
+      height: 50px;
+      padding-top: 20px;
+      margin-left: 50px;
+}
+
+    .text-1 img {
+        height: 44px;
+        width: 64px;
+        padding-top: 20px;
+    }
+
+    .vip {
+        font-size: 22px;
+    }
+
+}
